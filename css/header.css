@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #00161c;
+  align-items: center;
+  border-bottom: 1px solid #103d4a;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  position: absolute;
+  width: 100%;
+}
+
+.header__logo {
+  margin-bottom: 1rem;
+}
+
+.header__nav {
+  text-align: center;
+}
+
+.header__link {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+}
